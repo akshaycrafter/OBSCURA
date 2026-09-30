@@ -731,6 +731,11 @@ footer { padding: 80px 64px 48px; border-top: 1px solid var(--border); display: 
 .footer-copy { font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: var(--grey3); text-transform: uppercase; }
 .footer-bottom-right { font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: var(--grey3); text-transform: uppercase; }
 
+.footer-disclaimer { border-top: 1px solid var(--border); padding: 24px 64px 32px; }
+.footer-disclaimer p { font-family: 'DM Sans', sans-serif; font-size: 12px; line-height: 1.7; color: var(--grey); max-width: 900px; }
+.footer-disclaimer strong { color: #d0d0d2; font-weight: 500; }
+@media (max-width: 1100px) { .footer-disclaimer { padding: 20px 32px 28px; } }
+
 .reveal { opacity: 0; transform: translateY(32px); transition: opacity 0.9s cubic-bezier(0.22,1,0.36,1), transform 0.9s cubic-bezier(0.22,1,0.36,1); }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 .reveal-d1 { transition-delay: 0.1s; }
